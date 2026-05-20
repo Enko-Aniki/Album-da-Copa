@@ -1,0 +1,150 @@
+{
+  "copa_do_mundo_2026": {
+    "selecoes": [
+      {
+        "pais": "Alemanha",
+        "tecnico": "Julian Nagelsmann",
+        "jogadores": [
+          {"nome": "Manuel Neuer", "posicao": "Goleiro"},
+          {"nome": "Joshua Kimmich", "posicao": "Meio-campista"},
+          {"nome": "Kai Havertz", "posicao": "Atacante"},
+          {"nome": "Jonathan Tah", "posicao": "Zagueiro"},
+          {"nome": "Angelo Stiller", "posicao": "Meio-campista"},
+          {"nome": "Deniz Undav", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Curaçao",
+        "tecnico": "Dick Advocaat",
+        "jogadores": [
+          {"nome": "Eloy Room", "posicao": "Goleiro"},
+          {"nome": "Riechedly Bazoer", "posicao": "Zagueiro"},
+          {"nome": "Juninho Bacuna", "posicao": "Meio-campista"},
+          {"nome": "Leandro Bacuna", "posicao": "Meio-campista"},
+          {"nome": "Tahith Chong", "posicao": "Atacante"},
+          {"nome": "Jurgen Locadia", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Costa do Marfim",
+        "tecnico": "Emerse Faé",
+        "jogadores": [
+          {"nome": "Yahia Fofana", "posicao": "Goleiro"},
+          {"nome": "Evan Ndicka", "posicao": "Zagueiro"},
+          {"nome": "Franck Kessié", "posicao": "Meio-campista"},
+          {"nome": "Amad Diallo", "posicao": "Atacante"},
+          {"nome": "Simon Adingra", "posicao": "Atacante"},
+          {"nome": "Ange-Yoan Bonny", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Equador",
+        "tecnico": "Sebastián Beccacece",
+        "jogadores": [
+          {"nome": "Hernán Galíndez", "posicao": "Goleiro"},
+          {"nome": "Piero Hincapié", "posicao": "Zagueiro"},
+          {"nome": "Willian Pacho", "posicao": "Zagueiro"},
+          {"nome": "Moisés Caicedo", "posicao": "Meio-campista"},
+          {"nome": "Kendry Páez", "posicao": "Meio-campista"},
+          {"nome": "Enner Valencia", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "França",
+        "tecnico": "Didier Deschamps",
+        "jogadores": [
+          {"nome": "Mike Maignan", "posicao": "Goleiro"},
+          {"nome": "William Saliba", "posicao": "Zagueiro"},
+          {"nome": "Aurélien Tchouaméni", "posicao": "Meio-campista"},
+          {"nome": "Warren Zaïre-Emery", "posicao": "Meio-campista"},
+          {"nome": "Kylian Mbappé", "posicao": "Atacante"},
+          {"nome": "Ousmane Dembélé", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Senegal",
+        "tecnico": "Pape Thiaw",
+        "jogadores": [
+          {"nome": "Édouard Mendy", "posicao": "Goleiro"},
+          {"nome": "Kalidou Koulibaly", "posicao": "Zagueiro"},
+          {"nome": "Lamine Camara", "posicao": "Meio-campista"},
+          {"nome": "Idrissa Gueye", "posicao": "Meio-campista"},
+          {"nome": "Sadio Mané", "posicao": "Atacante"},
+          {"nome": "Ismaïla Sarr", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Iraque",
+        "tecnico": "Graham Arnold",
+        "jogadores": [
+          {"nome": "Jalal Hassan", "posicao": "Goleiro"},
+          {"nome": "Zaid Tahseen", "posicao": "Zagueiro"},
+          {"nome": "Zidan Iqbal", "posicao": "Meio-campista"},
+          {"nome": "Ibrahim Bayesh", "posicao": "Meio-campista"},
+          {"nome": "Ayman Hussein", "posicao": "Atacante"},
+          {"nome": "Ali Jasim", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Noruega",
+        "tecnico": "Ståle Solbakken",
+        "jogadores": [
+          {"nome": "Ørjan Nyland", "posicao": "Goleiro"},
+          {"nome": "Julian Ryerson", "posicao": "Zagueiro"},
+          {"nome": "Martin Ødegaard", "posicao": "Meio-campista"},
+          {"nome": "Oscar Bobb", "posicao": "Meio-campista"},
+          {"nome": "Erling Haaland", "posicao": "Atacante"},
+          {"nome": "Alexander Sørloth", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Brasil",
+        "tecnico": "Dorival Júnior",
+        "jogadores": [
+          {"nome": "Alisson", "posicao": "Goleiro"},
+          {"nome": "Marquinhos", "posicao": "Zagueiro"},
+          {"nome": "Gabriel Magalhães", "posicao": "Zagueiro"},
+          {"nome": "Bruno Guimarães", "posicao": "Meio-campista"},
+          {"nome": "Vinicius Junior", "posicao": "Atacante"},
+          {"nome": "Rodrygo", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Marrocos",
+        "tecnico": "Walid Regragui",
+        "jogadores": [
+          {"nome": "Yassine Bounou", "posicao": "Goleiro"},
+          {"nome": "Achraf Hakimi", "posicao": "Zagueiro"},
+          {"nome": "Nayef Aguerd", "posicao": "Zagueiro"},
+          {"nome": "Sofyan Amrabat", "posicao": "Meio-campista"},
+          {"nome": "Brahim Díaz", "posicao": "Meio-campista"},
+          {"nome": "Youssef En-Nesyri", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Haiti",
+        "tecnico": "Sébastien Migné",
+        "jogadores": [
+          {"nome": "Johny Placide", "posicao": "Goleiro"},
+          {"nome": "Carlens Arcus", "posicao": "Zagueiro"},
+          {"nome": "Duckens Nazon", "posicao": "Atacante"},
+          {"nome": "Frantzdy Pierrot", "posicao": "Atacante"},
+          {"nome": "Danley Jean Jacques", "posicao": "Meio-campista"},
+          {"nome": "Louicius Don Deedson", "posicao": "Atacante"}
+        ]
+      },
+      {
+        "pais": "Escócia",
+        "tecnico": "Steve Clarke",
+        "jogadores": [
+          {"nome": "Angus Gunn", "posicao": "Goleiro"},
+          {"nome": "Andrew Robertson", "posicao": "Zagueiro"},
+          {"nome": "Scott McTominay", "posicao": "Meio-campista"},
+          {"nome": "John McGinn", "posicao": "Meio-campista"},
+          {"nome": "Billy Gilmour", "posicao": "Meio-campista"},
+          {"nome": "Che Adams", "posicao": "Atacante"}
+        ]
+      }
+    ]
+  }
+}

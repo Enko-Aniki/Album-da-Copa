@@ -5,40 +5,89 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import React from 'react';
 import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+  Alert,
+  Button,
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
+import { useColorScheme } from 'react-native';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
+  const statusBarStyle = isDarkMode ? 'light-content' : 'dark-content';
+
+  const handlePress = (action: string) => {
+    Alert.alert('Hub do Álbum', `Ação selecionada: ${action}`);
+  };
 
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
-  );
-}
+    <SafeAreaView style={styles.safeArea}>
+      <StatusBar barStyle={statusBarStyle} />
+      <View style={styles.container}>
+        <Text style={styles.title}>Álbum Copa 2026</Text>
+        
 
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
+        <View style={styles.buttonGroup}>
+          <View style={styles.buttonWrapper}>
+            <Button
+              title="Ver álbum"
+              onPress={() => handlePress('Ver álbum')}
+              color="#1f8ef1"
+            />
+          </View>
+          <View style={styles.buttonWrapper}>
+            <Button
+              title="Seleções"
+              onPress={() => handlePress('Seleções')}
+              color="#10ac84"
+            />
+          </View>
+          <View style={styles.buttonWrapper}>
+            <Button
+              title="Progresso"
+              onPress={() => handlePress('Progresso')}
+              color="#f39c12"
+            />
+          </View>
+        </View>
+      </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+  },
   container: {
     flex: 1,
+    paddingHorizontal: 24,
+    justifyContent: 'center',
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: '700',
+    textAlign: 'center',
+    marginBottom: 8,
+    color: '#111111',
+  },
+  subtitle: {
+    fontSize: 16,
+    textAlign: 'center',
+    marginBottom: 32,
+    color: '#444444',
+  },
+  buttonGroup: {
+    gap: 16,
+  },
+  buttonWrapper: {
+    marginBottom: 14,
   },
 });
 
