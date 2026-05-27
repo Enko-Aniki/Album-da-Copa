@@ -14,18 +14,18 @@ const selecoesData = require('../data/timesdacopa.json');
 
 const brasoes: Record<string, any> = {
   alemanha: require('../imagens/Brasoes/alemanha.png'),
-  brasil: require('../imagens/Brasoes/brasil.jpg'),
-  costa_do_marfim: require('../imagens/Brasoes/costa_mar.png'),
-  curacao: require('../imagens/Brasoes/curacao.png'),
-  equador: require('../imagens/Brasoes/ecuador.png'),
-  escocia: require('../imagens/Brasoes/escocia.png'),
-  franca: require('../imagens/Brasoes/fraca.png'),
-  haiti: require('../imagens/Brasoes/haiti.jpg'),
-  iraque: require('../imagens/Brasoes/iraq.png'),
-  marrocos: require('../imagens/Brasoes/marrocos.png'),
-  noruega: require('../imagens/Brasoes/noruega.jpg'),
-  senegal: require('../imagens/Brasoes/senegal.png'),
-};
+    brasil: require('../imagens/Brasoes/brasil.jpg'),
+      costa_do_marfim: require('../imagens/Brasoes/costa_mar.png'),
+        curacao: require('../imagens/Brasoes/curacao.png'),
+          equador: require('../imagens/Brasoes/ecuador.png'),
+            escocia: require('../imagens/Brasoes/escocia.png'),
+              franca: require('../imagens/Brasoes/fraca.png'),
+                haiti: require('../imagens/Brasoes/haiti.jpg'),
+                  iraque: require('../imagens/Brasoes/iraq.png'),
+                    marrocos: require('../imagens/Brasoes/marrocos.png'),
+                      noruega: require('../imagens/Brasoes/noruega.jpg'),
+                        senegal: require('../imagens/Brasoes/senegal.png'),
+                        };
 
 const getIconKey = (pais: string) =>
   pais

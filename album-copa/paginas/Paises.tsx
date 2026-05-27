@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   SafeAreaView,
+  Image,
   ScrollView,
   StatusBar,
   StyleSheet,
@@ -11,6 +12,19 @@ import {
 
 type Props = {
   onBack: () => void;
+};
+
+
+const locais: Record<string, any> = {
+  mexico: require('../imagens/Locais/mexico.jpg'),
+  canada: require('../imagens/Locais/canada.jpg'),
+  eua: require('../imagens/Locais/eua.webp'),
+};
+
+const localMap: Record<string, any> = {
+  'Estados Unidos': locais.eua,
+  'Canadá': locais.canada,
+  'México': locais.mexico,
 };
 
 const destinations = [
@@ -26,8 +40,7 @@ const destinations = [
     title: 'Canadá',
     subtitle: 'Natureza e paixão em estádios acolhedores',
     description:
-      'O Canadá entra em cena com cidades acolhedoras e belas paisagens. Entre montanhas e lagos, o foco é criar uma experiência calorosa para visitantes que chegam pela primeira vez ao futebol mundial.',
-    imageLabel: 'Imagem do Canadá',
+      'O Canadá entra em cena com cidades acolhedoras e belas paisagens. Entre montanhas e lagos, o foco é criar uma experiência calorosa para visitantes que chegam pela primeira vez ao futebol mundial.',    
     color: '#dcedc1',
   },
   {
@@ -64,9 +77,13 @@ export default function Paises({ onBack }: Props) {
 
         {destinations.map((item) => (
           <View key={item.title} style={styles.section}>
-            <View style={[styles.imageBlock, { backgroundColor: item.color }]}> 
-              <Text style={styles.imageLabel}>{item.imageLabel}</Text>
-            </View>
+            {localMap[item.title] ? (
+              <Image source={localMap[item.title]} style={styles.imageBlock} resizeMode="cover" />
+            ) : (
+              <View style={[styles.imageBlock, { backgroundColor: item.color }]}> 
+                <Text style={styles.imageLabel}>{item.imageLabel}</Text>
+              </View>
+            )}
             <Text style={styles.sectionTitle}>{item.title}</Text>
             <Text style={styles.sectionSubtitle}>{item.subtitle}</Text>
             <Text style={styles.sectionText}>{item.description}</Text>
