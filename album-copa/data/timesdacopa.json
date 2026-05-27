@@ -6,11 +6,20 @@
         "tecnico": "Julian Nagelsmann",
         "jogadores": [
           {"nome": "Manuel Neuer", "posicao": "Goleiro"},
-          {"nome": "Joshua Kimmich", "posicao": "Meio-campista"},
-          {"nome": "Kai Havertz", "posicao": "Atacante"},
+          {"nome": "Marc-André ter Stegen", "posicao": "Goleiro"},
           {"nome": "Jonathan Tah", "posicao": "Zagueiro"},
+          {"nome": "Antonio Rüdiger", "posicao": "Zagueiro"},
+          {"nome": "Nico Schlotterbeck", "posicao": "Zagueiro"},
+          {"nome": "David Raum", "posicao": "Zagueiro"},
+          {"nome": "Joshua Kimmich", "posicao": "Meio-campista"},
           {"nome": "Angelo Stiller", "posicao": "Meio-campista"},
-          {"nome": "Deniz Undav", "posicao": "Atacante"}
+          {"nome": "Aleksandar Pavlović", "posicao": "Meio-campista"},
+          {"nome": "Florian Wirtz", "posicao": "Meio-campista"},
+          {"nome": "Jamal Musiala", "posicao": "Meio-campista"},
+          {"nome": "Kai Havertz", "posicao": "Atacante"},
+          {"nome": "Deniz Undav", "posicao": "Atacante"},
+          {"nome": "Niclas Füllkrug", "posicao": "Atacante"},
+          {"nome": "Leroy Sané", "posicao": "Atacante"}
         ]
       },
       {
@@ -18,11 +27,20 @@
         "tecnico": "Dick Advocaat",
         "jogadores": [
           {"nome": "Eloy Room", "posicao": "Goleiro"},
+          {"nome": "Trevor Doornbusch", "posicao": "Goleiro"},
           {"nome": "Riechedly Bazoer", "posicao": "Zagueiro"},
+          {"nome": "Cuco Martina", "posicao": "Zagueiro"},
+          {"nome": "Sherel Floranus", "posicao": "Zagueiro"},
+          {"nome": "Juriën Gaari", "posicao": "Zagueiro"},
           {"nome": "Juninho Bacuna", "posicao": "Meio-campista"},
           {"nome": "Leandro Bacuna", "posicao": "Meio-campista"},
+          {"nome": "Vurnon Anita", "posicao": "Meio-campista"},
+          {"nome": "Kevin Felida", "posicao": "Meio-campista"},
+          {"nome": "Godfried Roemeratoe", "posicao": "Meio-campista"},
           {"nome": "Tahith Chong", "posicao": "Atacante"},
-          {"nome": "Jurgen Locadia", "posicao": "Atacante"}
+          {"nome": "Jurgen Locadia", "posicao": "Atacante"},
+          {"nome": "Jearl Margaritha", "posicao": "Atacante"},
+          {"nome": "Gervane Kastaneer", "posicao": "Atacante"}
         ]
       },
       {
@@ -30,11 +48,20 @@
         "tecnico": "Emerse Faé",
         "jogadores": [
           {"nome": "Yahia Fofana", "posicao": "Goleiro"},
+          {"nome": "Badra Ali Sangaré", "posicao": "Goleiro"},
           {"nome": "Evan Ndicka", "posicao": "Zagueiro"},
+          {"nome": "Ousmane Diomande", "posicao": "Zagueiro"},
+          {"nome": "Odilon Kossounou", "posicao": "Zagueiro"},
+          {"nome": "Wilfried Singo", "posicao": "Zagueiro"},
           {"nome": "Franck Kessié", "posicao": "Meio-campista"},
+          {"nome": "Seko Fofana", "posicao": "Meio-campista"},
+          {"nome": "Ibrahim Sangaré", "posicao": "Meio-campista"},
+          {"nome": "Amadou Koné", "posicao": "Meio-campista"},
           {"nome": "Amad Diallo", "posicao": "Atacante"},
           {"nome": "Simon Adingra", "posicao": "Atacante"},
-          {"nome": "Ange-Yoan Bonny", "posicao": "Atacante"}
+          {"nome": "Ange-Yoan Bonny", "posicao": "Atacante"},
+          {"nome": "Sébastien Haller", "posicao": "Atacante"},
+          {"nome": "Oumar Diakité", "posicao": "Atacante"}
         ]
       },
       {
@@ -42,11 +69,20 @@
         "tecnico": "Sebastián Beccacece",
         "jogadores": [
           {"nome": "Hernán Galíndez", "posicao": "Goleiro"},
+          {"nome": "Moisés Ramírez", "posicao": "Goleiro"},
           {"nome": "Piero Hincapié", "posicao": "Zagueiro"},
           {"nome": "Willian Pacho", "posicao": "Zagueiro"},
+          {"nome": "Félix Torres", "posicao": "Zagueiro"},
+          {"nome": "Angelo Preciado", "posicao": "Zagueiro"},
+          {"nome": "Pervis Estupiñán", "posicao": "Zagueiro"},
           {"nome": "Moisés Caicedo", "posicao": "Meio-campista"},
           {"nome": "Kendry Páez", "posicao": "Meio-campista"},
-          {"nome": "Enner Valencia", "posicao": "Atacante"}
+          {"nome": "Alan Franco", "posicao": "Meio-campista"},
+          {"nome": "Pedro Vite", "posicao": "Meio-campista"},
+          {"nome": "Enner Valencia", "posicao": "Atacante"},
+          {"nome": "Jeremy Sarmiento", "posicao": "Atacante"},
+          {"nome": "John Yeboah", "posicao": "Atacante"},
+          {"nome": "Kevin Rodríguez", "posicao": "Atacante"}
         ]
       },
       {
@@ -54,11 +90,20 @@
         "tecnico": "Didier Deschamps",
         "jogadores": [
           {"nome": "Mike Maignan", "posicao": "Goleiro"},
+          {"nome": "Brice Samba", "posicao": "Goleiro"},
           {"nome": "William Saliba", "posicao": "Zagueiro"},
+          {"nome": "Dayot Upamecano", "posicao": "Zagueiro"},
+          {"nome": "Ibrahima Konaté", "posicao": "Zagueiro"},
+          {"nome": "Jules Koundé", "posicao": "Zagueiro"},
+          {"nome": "Theo Hernández", "posicao": "Zagueiro"},
           {"nome": "Aurélien Tchouaméni", "posicao": "Meio-campista"},
           {"nome": "Warren Zaïre-Emery", "posicao": "Meio-campista"},
+          {"nome": "Eduardo Camavinga", "posicao": "Meio-campista"},
+          {"nome": "N'Golo Kanté", "posicao": "Meio-campista"},
           {"nome": "Kylian Mbappé", "posicao": "Atacante"},
-          {"nome": "Ousmane Dembélé", "posicao": "Atacante"}
+          {"nome": "Ousmane Dembélé", "posicao": "Atacante"},
+          {"nome": "Bradley Barcola", "posicao": "Atacante"},
+          {"nome": "Marcus Thuram", "posicao": "Atacante"}
         ]
       },
       {
@@ -66,11 +111,20 @@
         "tecnico": "Pape Thiaw",
         "jogadores": [
           {"nome": "Édouard Mendy", "posicao": "Goleiro"},
+          {"nome": "Mory Diaw", "posicao": "Goleiro"},
           {"nome": "Kalidou Koulibaly", "posicao": "Zagueiro"},
+          {"nome": "Abdou Diallo", "posicao": "Zagueiro"},
+          {"nome": "Formose Mendy", "posicao": "Zagueiro"},
+          {"nome": "Ismail Jakobs", "posicao": "Zagueiro"},
           {"nome": "Lamine Camara", "posicao": "Meio-campista"},
           {"nome": "Idrissa Gueye", "posicao": "Meio-campista"},
+          {"nome": "Pape Matar Sarr", "posicao": "Meio-campista"},
+          {"nome": "Habib Diarra", "posicao": "Meio-campista"},
           {"nome": "Sadio Mané", "posicao": "Atacante"},
-          {"nome": "Ismaïla Sarr", "posicao": "Atacante"}
+          {"nome": "Ismaïla Sarr", "posicao": "Atacante"},
+          {"nome": "Nicolas Jackson", "posicao": "Atacante"},
+          {"nome": "Iliman Ndiaye", "posicao": "Atacante"},
+          {"nome": "Cherif Ndiaye", "posicao": "Atacante"}
         ]
       },
       {
@@ -78,11 +132,20 @@
         "tecnico": "Graham Arnold",
         "jogadores": [
           {"nome": "Jalal Hassan", "posicao": "Goleiro"},
+          {"nome": "Fahad Talib", "posicao": "Goleiro"},
           {"nome": "Zaid Tahseen", "posicao": "Zagueiro"},
+          {"nome": "Rebin Sulaka", "posicao": "Zagueiro"},
+          {"nome": "Hussein Ali", "posicao": "Zagueiro"},
+          {"nome": "Merdchas Doski", "posicao": "Zagueiro"},
           {"nome": "Zidan Iqbal", "posicao": "Meio-campista"},
           {"nome": "Ibrahim Bayesh", "posicao": "Meio-campista"},
+          {"nome": "Amir Al-Ammari", "posicao": "Meio-campista"},
+          {"nome": "Osama Rashid", "posicao": "Meio-campista"},
+          {"nome": "Youssef Amyn", "posicao": "Meio-campista"},
           {"nome": "Ayman Hussein", "posicao": "Atacante"},
-          {"nome": "Ali Jasim", "posicao": "Atacante"}
+          {"nome": "Ali Jasim", "posicao": "Atacante"},
+          {"nome": "Mohanad Ali", "posicao": "Atacante"},
+          {"nome": "Ali Al-Hamadi", "posicao": "Atacante"}
         ]
       },
       {
@@ -90,11 +153,20 @@
         "tecnico": "Ståle Solbakken",
         "jogadores": [
           {"nome": "Ørjan Nyland", "posicao": "Goleiro"},
+          {"nome": "Egil Selvik", "posicao": "Goleiro"},
           {"nome": "Julian Ryerson", "posicao": "Zagueiro"},
+          {"nome": "Leo Østigård", "posicao": "Zagueiro"},
+          {"nome": "Kristoffer Ajer", "posicao": "Zagueiro"},
+          {"nome": "Andreas Hanche-Olsen", "posicao": "Zagueiro"},
           {"nome": "Martin Ødegaard", "posicao": "Meio-campista"},
           {"nome": "Oscar Bobb", "posicao": "Meio-campista"},
+          {"nome": "Sander Berge", "posicao": "Meio-campista"},
+          {"nome": "Antonio Nusa", "posicao": "Meio-campista"},
+          {"nome": "Patrick Berg", "posicao": "Meio-campista"},
           {"nome": "Erling Haaland", "posicao": "Atacante"},
-          {"nome": "Alexander Sørloth", "posicao": "Atacante"}
+          {"nome": "Alexander Sørloth", "posicao": "Atacante"},
+          {"nome": "Jørgen Strand Larsen", "posicao": "Atacante"},
+          {"nome": "Aron Dønnum", "posicao": "Atacante"}
         ]
       },
       {
@@ -102,11 +174,20 @@
         "tecnico": "Dorival Júnior",
         "jogadores": [
           {"nome": "Alisson", "posicao": "Goleiro"},
+          {"nome": "Ederson", "posicao": "Goleiro"},
           {"nome": "Marquinhos", "posicao": "Zagueiro"},
           {"nome": "Gabriel Magalhães", "posicao": "Zagueiro"},
+          {"nome": "Éder Militão", "posicao": "Zagueiro"},
+          {"nome": "Danilo", "posicao": "Zagueiro"},
+          {"nome": "Guilherme Arana", "posicao": "Zagueiro"},
           {"nome": "Bruno Guimarães", "posicao": "Meio-campista"},
+          {"nome": "João Gomes", "posicao": "Meio-campista"},
+          {"nome": "Lucas Paquetá", "posicao": "Meio-campista"},
+          {"nome": "Gerson", "posicao": "Meio-campista"},
           {"nome": "Vinicius Junior", "posicao": "Atacante"},
-          {"nome": "Rodrygo", "posicao": "Atacante"}
+          {"nome": "Rodrygo", "posicao": "Atacante"},
+          {"nome": "Raphinha", "posicao": "Atacante"},
+          {"nome": "Endrick", "posicao": "Atacante"}
         ]
       },
       {
@@ -114,11 +195,20 @@
         "tecnico": "Walid Regragui",
         "jogadores": [
           {"nome": "Yassine Bounou", "posicao": "Goleiro"},
+          {"nome": "Munir Mohamedi", "posicao": "Goleiro"},
           {"nome": "Achraf Hakimi", "posicao": "Zagueiro"},
           {"nome": "Nayef Aguerd", "posicao": "Zagueiro"},
+          {"nome": "Abde Ezzalzouli", "posicao": "Zagueiro"},
+          {"nome": "Noussair Mazraoui", "posicao": "Zagueiro"},
           {"nome": "Sofyan Amrabat", "posicao": "Meio-campista"},
           {"nome": "Brahim Díaz", "posicao": "Meio-campista"},
-          {"nome": "Youssef En-Nesyri", "posicao": "Atacante"}
+          {"nome": "Azzedine Ounahi", "posicao": "Meio-campista"},
+          {"nome": "Bilal El Khannouss", "posicao": "Meio-campista"},
+          {"nome": "Eliesse Ben Seghir", "posicao": "Meio-campista"},
+          {"nome": "Youssef En-Nesyri", "posicao": "Atacante"},
+          {"nome": "Hakim Ziyech", "posicao": "Atacante"},
+          {"nome": "Soufiane Rahimi", "posicao": "Atacante"},
+          {"nome": "Ayoub El Kaabi", "posicao": "Atacante"}
         ]
       },
       {
@@ -126,11 +216,20 @@
         "tecnico": "Sébastien Migné",
         "jogadores": [
           {"nome": "Johny Placide", "posicao": "Goleiro"},
+          {"nome": "Alexandre Pierre", "posicao": "Goleiro"},
           {"nome": "Carlens Arcus", "posicao": "Zagueiro"},
+          {"nome": "Ricardo Adé", "posicao": "Zagueiro"},
+          {"nome": "Jean-Kevin Duverne", "posicao": "Zagueiro"},
+          {"nome": "Garven Metusala", "posicao": "Zagueiro"},
+          {"nome": "Danley Jean Jacques", "posicao": "Meio-campista"},
+          {"nome": "Leverton Pierre", "posicao": "Meio-campista"},
+          {"nome": "Carl Sainte", "posicao": "Meio-campista"},
+          {"nome": "Bryan Alceus", "posicao": "Meio-campista"},
           {"nome": "Duckens Nazon", "posicao": "Atacante"},
           {"nome": "Frantzdy Pierrot", "posicao": "Atacante"},
-          {"nome": "Danley Jean Jacques", "posicao": "Meio-campista"},
-          {"nome": "Louicius Don Deedson", "posicao": "Atacante"}
+          {"nome": "Louicius Don Deedson", "posicao": "Atacante"},
+          {"nome": "Mikaël Cantave", "posicao": "Atacante"},
+          {"nome": "Fabrice Picault", "posicao": "Atacante"}
         ]
       },
       {
@@ -138,11 +237,20 @@
         "tecnico": "Steve Clarke",
         "jogadores": [
           {"nome": "Angus Gunn", "posicao": "Goleiro"},
+          {"nome": "Zander Clark", "posicao": "Goleiro"},
           {"nome": "Andrew Robertson", "posicao": "Zagueiro"},
+          {"nome": "Grant Hanley", "posicao": "Zagueiro"},
+          {"nome": "John Souttar", "posicao": "Zagueiro"},
+          {"nome": "Ryan Porteous", "posicao": "Zagueiro"},
+          {"nome": "Anthony Ralston", "posicao": "Zagueiro"},
           {"nome": "Scott McTominay", "posicao": "Meio-campista"},
           {"nome": "John McGinn", "posicao": "Meio-campista"},
           {"nome": "Billy Gilmour", "posicao": "Meio-campista"},
-          {"nome": "Che Adams", "posicao": "Atacante"}
+          {"nome": "Callum McGregor", "posicao": "Meio-campista"},
+          {"nome": "Lewis Ferguson", "posicao": "Meio-campista"},
+          {"nome": "Che Adams", "posicao": "Atacante"},
+          {"nome": "Lawrence Shankland", "posicao": "Atacante"},
+          {"nome": "Lyndon Dykes", "posicao": "Atacante"}
         ]
       }
     ]

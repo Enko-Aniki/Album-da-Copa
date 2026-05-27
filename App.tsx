@@ -5,9 +5,8 @@
  * @format
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 import {
-  Alert,
   Button,
   SafeAreaView,
   StatusBar,
@@ -16,42 +15,91 @@ import {
   View,
 } from 'react-native';
 import { useColorScheme } from 'react-native';
+import Selecoes, { type Selecao } from './album-copa/paginas/Selecoes';
+import Time from './album-copa/paginas/Time';
+import Sorteio, { type SorteioCard } from './album-copa/paginas/Sorteio';
+import Paises from './album-copa/paginas/Paises';
 
 function App() {
+  const [page, setPage] = useState<'home' | 'selecoes' | 'time' | 'sorteio' | 'paises'>('home');
+  const [selectedTeam, setSelectedTeam] = useState<Selecao | null>(null);
+  const [unlockedCards, setUnlockedCards] = useState<string[]>([]);
   const isDarkMode = useColorScheme() === 'dark';
   const statusBarStyle = isDarkMode ? 'light-content' : 'dark-content';
 
-  const handlePress = (action: string) => {
-    Alert.alert('Hub do Álbum', `Ação selecionada: ${action}`);
+  const handleNewUnlocked = (cards: SorteioCard[]) => {
+    setUnlockedCards((current) => {
+      const next = new Set(current);
+      cards.forEach((card) => next.add(card.id));
+      return Array.from(next);
+    });
   };
+
+  if (page === 'time' && selectedTeam) {
+    return (
+      <Time
+        selecao={selectedTeam}
+        unlockedIds={unlockedCards}
+        onBack={() => setPage('selecoes')}
+      />
+    );
+  }
+
+  if (page === 'sorteio') {
+    return (
+      <Sorteio
+        onBack={() => setPage('home')}
+        unlockedCount={unlockedCards.length}
+        onOpen={(cards) => {
+          handleNewUnlocked(cards);
+          setPage('home');
+        }}
+      />
+    );
+  }
+
+  if (page === 'paises') {
+    return <Paises onBack={() => setPage('home')} />;
+  }
+
+  if (page === 'selecoes') {
+    return (
+      <Selecoes
+        onBack={() => setPage('home')}
+        onSelect={(team) => {
+          setSelectedTeam(team);
+          setPage('time');
+        }}
+      />
+    );
+  }
 
   return (
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle={statusBarStyle} />
       <View style={styles.container}>
         <Text style={styles.title}>Álbum Copa 2026</Text>
-        
 
         <View style={styles.buttonGroup}>
           <View style={styles.buttonWrapper}>
             <Button
-              title="Ver álbum"
-              onPress={() => handlePress('Ver álbum')}
-              color="#1f8ef1"
-            />
-          </View>
-          <View style={styles.buttonWrapper}>
-            <Button
-              title="Seleções"
-              onPress={() => handlePress('Seleções')}
+              title="Ver Album"
+              onPress={() => setPage('selecoes')}
               color="#10ac84"
             />
           </View>
           <View style={styles.buttonWrapper}>
             <Button
-              title="Progresso"
-              onPress={() => handlePress('Progresso')}
+              title="Sorteio"
+              onPress={() => setPage('sorteio')}
               color="#f39c12"
+            />
+          </View>
+          <View style={styles.buttonWrapper}>
+            <Button
+              title="Paises Sede"
+              onPress={() => setPage('paises')}
+              color="#172ce7d8"
             />
           </View>
         </View>
